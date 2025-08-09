@@ -83,47 +83,32 @@
       <div class="section" id="about">
         <div class="container">
           <div class="card" data-aos="fade-up" data-aos-offset="10">
-            <div class="row">
-              <div class="col-lg-6 col-md-12">
-                <div class="card-body">
+            <div class="row align-items-stretch">
+              <!-- Left Column -->
+              <div class="col-lg-6 col-md-12 d-flex">
+                <div class="card-body flex-fill">
                   <div class="h4 mt-0 title">About</div>
-                  <p>I am Fangyi Yu, an Applied Scientist at <a href="https://www.thomsonreuters.com/en/artificial-intelligence/ai-overview.html" target="_blank">Thomson Reuters</a>, with a strong foundation in Computer Science from Ontario Tech University and Applied Mathematics from Donghua University. </p>
-                    <p>My expertise lies in machine learning, privacy, and natural language processing. At Thomson Reuters, I apply generative AI to legal research products. My career includes impactful experiences at Coursera and the Human Machine Lab at Ontario Tech, contributing to significant advancements in AI and security. </p>
+                  <p>Fangyi Yu is an <strong>Applied Scientist</strong> on the <strong>Foundational Research</strong> team at <strong>Thomson Reuters</strong>, specializing in <strong>large language model (LLM) evaluation</strong>. Her work spans <strong>autonomous evaluation pipelines</strong>, <strong>LLM- and agent-as-a-judge methodologies</strong>, and the assessment of <strong>AI agents in high-stakes domains</strong>. She develops and applies <strong>cutting-edge evaluation frameworks</strong> to ensure that advanced language models are <strong>reliable</strong>, <strong>fair</strong>, and <strong>aligned</strong> with real-world requirements.</p>
+                  <p>Fangyi holds an <strong>MSc in Computer Science</strong> from <strong>Ontario Tech University</strong> and a <strong>BSc in Applied Mathematics</strong> from <strong>Donghua University</strong>. Her academic and industry background covers <strong>machine learning</strong>, <strong>natural language processing</strong>, and <strong>AI safety</strong>, with prior contributions to <strong>privacy-preserving systems</strong> and <strong>human–AI interaction research</strong>. She has also worked at <strong>Coursera</strong> and the <strong>Human Machine Lab</strong> at Ontario Tech, where she contributed to projects in <strong>AI security</strong> and <strong>trust</strong>.</p>
+                  <p>Passionate about bridging <strong>research</strong> and <strong>practical applications</strong>, Fangyi focuses on advancing <strong>AI evaluation science</strong> to support <strong>trustworthy AI deployment</strong>—especially in <strong>high-stakes</strong> domains.</p>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-12">
-                <div class="card-body">
-                  <div class="h4 mt-0 title">Basic Information</div>
-                  <div class="row">
-                    <div class="col-sm-4"><strong class="text-uppercase">Research: </strong></div>
-                    <div class="col-sm-8">6+ years</div>
-                    <div class="col-sm-4"><strong class="text-uppercase">Python: </strong></div>
-                    <div class="col-sm-8">8+ years</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-                    <div class="col-sm-8">yufangyi1@gmail.com</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Location:</strong></div>
-                    <div class="col-sm-8">Ontario, Canada</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-                    <div class="col-sm-8">English, Chinese. Learning French and Spanish</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Hobby:</strong></div>
-                    <div class="col-sm-8">Travelling, Table Tennis, Gym & Workout</div>
-                  </div>
+      
+              <!-- Right Column -->
+              <div class="col-lg-6 col-md-12 d-flex">
+                <div class="card-body text-center flex-fill d-flex flex-column justify-content-center">
+                  <img src="images/me_1.jpg" alt="Fangyi Yu" class="img-fluid rounded" style="max-width: 100%; height: auto;">
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
+      
+              
 
-      <div class="container">
+      <!-- <div class="container">
         <div class="h4 text-center mb-4 title" id="skill">Skills</div>
         <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
           <div class="card-body">
@@ -166,7 +151,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="section" id="experience">
           <div class="container cc-education">
@@ -177,7 +162,7 @@
                 <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                   <div class="card-body cc-education-header">
                     <p>Nov 2023 - Present</p>
-                    <div class="h5">Thomson Reuters</div>
+                    <div class="h5">Thomson Reuters Foundational Research</div>
                   </div>
                 </div>
                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
@@ -185,15 +170,18 @@
                     <div class="h5">Applied Scientist</div>
                     <br>
                     <ul>
-                      <li>Build in-house LLMs.</li>
-                      <li>Apply generative AI to legal, tax, and corporate research software.</li>
+                      <li>In-house LLM development: contribute to model selection, post-training, and release gates for domain-specific models supporting legal research workflows.</li>
+                      <li>Post-training data creation: design instruction-tuning and preference datasets using rubric-driven synthetic generation with human-in-the-loop QA.</li>
+                      <li>Auto-evaluation pipelines: build evaluation harnesses that run on every model drop, with task suites, reproducible seeds for stable comparisons.</li>
+                      <li>LLM-as-a-judge: implement multi-criteria rubric graders and multi-agent debate evaluation to reduce single-judge bias and improve reliability.</li>
+                      <li>Agent evaluation: assess tool-using agents with metrics for task success, tool-call accuracy, latency, and failure recovery in sandboxed environments.</li>
+                      <li>Cross-functional collaboration: partner with research, product, and legal subject-matter experts to translate evaluation results into model release criteria and product-ready guidance.</li>
                     </ul>
-                    </p>
                   </div>
                 </div>
               </div>
             </div>
-
+            
             <div class="card">
               <div class="row">
                 <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
@@ -421,6 +409,24 @@
                   </div>
                 </div>
               </div>
+              <div class="tab-content">
+                <div class="tab-pane active" id="all-contents">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="card-body">
+                       <img src="images/LLM_eval.png" alt="Image"></a>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="card-body">
+                        <span style="font-size: 18px; font-weight: bold">When AIs Judge AIs: The Rise of Agent-as-a-Judge Evaluation for LLMs</span>
+                        <br>
+                        <br>
+                        <p><b>Fangyi Yu</b> </p>
+                        <a style="color: #378C3F" href="https://arxiv.org/pdf/2508.02994" target="_blank"><b>paper</b></a>
+                      </div>
+                    </div>
+                  </div>
               <div class="tab-content">
                 <div class="tab-pane active" id="all-contents">
                   <div class="row">
